@@ -48,7 +48,7 @@ const Signup1 = () => {
 
   return (
     <div className="min-h-screen flex justify-center p-10">
-      <div className="bg-white mx-4 p-4 rounded-[20px] w-full md:w-3/4 lg:w-2/3 xl:w-1/2">
+      <div className="bg-white mx-4 p-4 rounded-[20px]  " style={{height: '940px' ,width: '1200px',}}>
         <div className='my-4 mx-6 text-xl flex justify-between' style={styles}>
           <span className='mx-6'>contra</span>
           <RxCross1 />

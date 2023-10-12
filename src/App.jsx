@@ -13,10 +13,10 @@ function App() {
     <>
     <div >
 
-     {/* <Signup />*/}
-      {/*<Signup1/>*/}
-     { <Otp/>}
-    {/* <Verify/>*/}
+    {/* <Signup />*/ } 
+      <Signup1/>
+     {/* <Otp/>*/}
+   {/* <Verify/>*/ }
       
     </div>
     </>
