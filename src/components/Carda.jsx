@@ -5,18 +5,18 @@ const Card1 = ({imag,head,para}) => {
         
      
   return (
-    <div> 
+    <div className='flex flex-col justify-center items-center'> 
          
 
     
-        <div >
+        <div  >
         <img src={imag} alt="Image" />
         </div>
-        <div>
-            <h1 >
+        <div className='text-center'>
+            <h1 className='text-2xl font-medium  ' >
                {head}
-            </h1>
-            <p>
+            </h1> 
+            <p className='text-gray-500'>
             {para}
             </p>
         </div>
